@@ -1,0 +1,52 @@
+
+body{ background-color: #FFFFCC;} 
+h1{text-align: center; font face= Arial, Georgia, Garamond; color:#FFFFCC;}
+p{ color: #993300;} 
+ol{color:#993300;}
+ul{color:#993300;}
+h6{text-align:right; color:#FFFFCC;}
+h5{text-align:right; color:#990000;}
+h4{text -align:center;}
+h3{ color: #990000; }
+h2{color:#990000;}
+div.border{width:1224px;height:2200px;border:6px groove orange; padding:9px;margin:10px}
+table.table1heading{height:18px; width: 1224px; background-color:#990000;}
+table.heading2{height:7px; width:1224px; background-color:#FFFFCC;}
+table.heading3{height:70px; width:1224px; background-color:#990000;}
+a{text-decoration: none;color:#FF0000;}
+div.border2{width:1224px;height:980px;border:6px groove orange; padding:9px;}
+div.border3{width:250px;height:75px;border:6px groove orange; padding:3px; margin-left:auto;margin-right:auto; }
+body.chessboard{background-color:#FFFFCC;}
+table.letters{margin-left:auto;margin-right:auto;background-color:#FFCC66;height:8px;}
+tr.letter{width:73.3px;height:8px;background-color:#FFCC66;text-align:center;vertical-align:bottom;}
+td.small{width:73.3px;height:10px;}
+tr.letterbottom{width:73.3px;height:8px;background-color:#FFCC66;text-align:center;vertical-align:top;}
+td.remove{width:70px;height:70px;background-color:#FFCC66;text-align:center;vertical-align:top;}
+table.chessboard{margin-left:auto;margin-right:auto; width : 1200px; height: 600px; background-color:#FFCC66;text-align:center;vertical-align:center;}
+td.dark{border:groove;width:70px;height:70px;background-color:#990000;animation:myfirst 3s;}@keyframes myfirst
+{
+0% {background:#990000;left:0px; top:0px;}
+25% {background:yellow;left:200px; top:0px;}
+50% {background:green;left:200px; top:200px;}
+75% {background:blue;left:0px; top:200px;}
+100% {background:#990000;left:0px; top:0px;}
+}
+td.white {border:groove;width: 70px; height: 70px;background-color:#FFFFCC;animation:mysecond 3s;}@keyframes mysecond
+{
+0% {background:#FFFFCC;left:0px; top:0px;}
+15% {background:pink;left:200px; top:0px;}
+35% {background:orange;left:200px; top:200px;}
+65% {background:blue;left:0px; top:200px;}
+90% {background:pink;}
+100% {background:#FFFFCC;left:0px; top:0px;}
+}
+td.silver {border:groove;width: 70px; height: 70px;background-color:#C0C0C0;}
+td.blue {border:groove;width: 70px; height: 70px;background-color:#46C7C7;}
+td.green {border:groove;width: 70px; height: 70px;background-color:#52D017;}
+p.title { font-size: 60px;  color: #990000; text-align:center;}
+#PBDiv {position: relative; top: 0; left: 0; height: 65;}
+#PB {position: absolute; top: 0; left: 0;}
+#PWDiv {position: relative; top: 0; right: 0; height: 65;}
+#PW {position: absolute; top: 0; right: 0;}
+
+

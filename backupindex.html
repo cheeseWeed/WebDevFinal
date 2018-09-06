@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+
+<head>
+	<title>Description of Chess</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css" />
+	<link rel="chess" type="text/HTML" href="chessGrid.html"/>
+	<script src="chessGrid.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="border">
+<table class= "table1heading" > 
+</table>
+<table class="heading2" > 
+</table>
+<table class="heading3"> 
+<tr><td><p><h1>THE GAME OF CHESS</h1><h6>by:Devan Glazier </h6></p></td></tr></table>
+<table><tr><td><input id= "usersName" type="text" value="name" onclick = value=""></input></td><td><input id= "passwords" type="text" value="password"  onclick = "password()" ></input></td><td><button onclick = "login()">login</button></td><td><button onclick = "loginReset()">Clear local Storage / login reset</button></td><td width = 20px;></td><td><div id="loginStatus"></div></td></tr></table>
+<ul>
+<p><h2><li>What is Chess</li></h2><p>
+<p>The game of <a href= "http://www.mychess.de/chess_ChessWiki.htm" ><b>chess</b> </a>is a two player game, played on a <a href= "http://www.mychess.de/chessboard_ChessWiki.htm" ><b> chess board.</b></a>  The board is made of 64 squares, eight rows and columns. The squares are alternately light and dark.</br>
+Each player has sixteen pieces in the beginning of the game: one king, one queen, two rooks, two bishops, two knights, and eight pawns. The light color piece has the first <br>move and then it is the dark colors turn.  The alternating turns take place throught the game.<p>
+<p><h2><li>Game Objective</li></h2></p>
+<a class="chessgame" href="http://www.chesskid.com/learn-how-to-play-chess.html" target="_blank"><img src="http://1.bp.blogspot.com/-cvOF0wCzwG0/UPmpsJ46vvI/AAAAAAAAASU/AvJGqEZ3Zbw/s320/chess.png" width="197" height="160" alt="Chess set" /" align =  "right"></a>
+<p>The objective the game is to put the enemy king in <a href= "http://www.mychess.de/Checkmate_ChessWiki.htm" ><b>checkmate:</b></a> this is a position which he cannot move without being captured.<p>
+<p><h2><li>SetUp</li></h2></p>
+<p>The row closest to the player of that color, from left to right: <a href= "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTOxE-1FvUk3QZwOIClrvYo1rXrp93GVmWrVVZCpRplfB1qV23w" ><b>rook</b></a>, <a href ="http://files.chesscomfiles.com/images_users/tiny_mce/TomBreakfast/Knight.jpg" ><b> knight</b></a>, <a href="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQjfFoOnPuPJxjq3FdxCVN9K8jL9ccCFVq7jqCXj4THKd4NgicR8Q" ><b> bishop</b></a>, <a href="http://us.123rf.com/400wm/400/400/imagedb/imagedb1108/imagedb110812060/10236413-close-up-of-a-queen-chess-piece.jpg" ><b>queen</b></a>, <a href="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSTAd7IYqWrO6DiwkvIETgKqPEBeX9wp4ciWvyaZp566HUMQE2Z"><b> king</b></a>, bishop, knight and rook.<br>The Queen is always placed on her own color.<br>The second row from the player contains the eight <a href= "http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/StauntonPawn2.jpg/120px-StauntonPawn2.jpg" ><b> pawns</b></a> on individual squares.</p>
+<p><a href="http://www.chesskid.com/learn-how-to-play-chess.html"><h5>Learn to Play Chess Tutorial</font></h5></a></p>
+<p><h2><li>How to Play</li></h2></p>
+<p>Any player my capture any piece of the opponents team  except the king, as long as it is that players turn</p>
+<ul>
+<p> <h3><li> <a href="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTA2l4uJqkhEuGJBBHJ1iJgWsC7CLRvWGguNkdEu5FuMfSZiJQPhw"><b>  Rook</b></a></h3></p><p> The rook can only move in a straight line, horizontally or vertically. The rook may move as many squares as it desires,but it can not jump pieces.  If it collides with a piece from the opposite team, it will remove that piece from the board and take its place on that square. The rook is not allowed to collide with a piece of its own color  </p>
+<p> <h3><li> <a href="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSJtbM0eqsFrJqH0kQKqu0fbKUEMPXptD40QXPR9ikeHLR2KmfU"><b>  Knight</b></a></h3></p><p> The knight can move in an "L" shape.  It must move one of two ways:</p><p><ol><li> Option One: Vertical one square in any direction and horizontally Two squares either direction or <br><li>Option Two: Vertical two squares in any direction and horizontally One square either direction.</ol><p>The knight is the only player allowed to jump other players. If it collides with a piece from the opposite team, it will remove that piece from the board and take its place on that square. The knight is not allowed to collide with a piece of its own color </p> </p> 
+<p> <h3> <li><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyGIougobiSj3LOJfO-2ZEIypXC13arTJJ9KN6W1PnxumPrVls"><b>  Bishop</b></a></h3></p><p>The bishop may move in a diagnol any direction, as many spaces as it would like. It may not jump pieces.  If it collides with a piece from the opposite team, it will remove that piece from the board and take its place on that square. The bishop is not allowed to collide with a piece of its own color  </p>
+<p> <h3><li> <a href="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS3I_lHpa4BxMBzYwgd84VnuuNGXbL6_5x3AemF68B2Z5PsFvO8Sw"><b>  Pawn</b></a></h3></p><p>The Pawn may only move verticaly accros the board. It may not move backwards.  On the pawns frist move it may move either one or two squares forward. All other times it may only move one square forward. A pawn is not allowed to collide with any other piece while it is moving forward in a vertical direction.  A pawn may take the piece of the other player on its turn only when the player of the opposite team has a peice diagnoly adjasent in a forward direction to the pawn. The pawn is to then occupie the position of the piece it removed.
+<p> <h3> <li><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1afA6myhYUP7xPTa3OAnwZNSyoFx-zZJaAOioQwTGluX8PCMo"><b>  Queen</b></a></h3></p><p>The queen is the most specialized piece.  She may move vertical or horizontal as the rook does, or she may move in a diagnol as the bishop does. She may not do both in the same move.  She may not jump pieces.  If she collides with a piece from the opposite team, she will remove that piece from the board and take her place on that square. The Queen is not allowed to collide with a piece of its own color  </p>
+<p> <h3> <li><a href="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR-eQJEAVBaZnILM5lnuLQHumrfjNbE3ZSl9mW5mBANA_C7r-dJ"><b>  King</b></a></h3></p><p>The king is the only player that may not be captured. He is put in check or Check Mate.  The king may move one square in any direction. If it collides with a piece from the opposite team, it will remove that piece from the board and take its place on that square. The king is not allowed to collide with a piece of its own color  </p> 
+<p> <li><h3>Check</h3></p><p>The king is put in check when he is in danger of being captured on the next move.  Once the king is in check, their next move must be to either move the king out of the way or move another piece to make it so the king is no longer in danger.</p>
+<p> <li><h3>Check Mate</h3></p><p>The King is in check, he can not move and no one can save him.  The game has been won.</p>
+</ul></ul>
+<div class="border3">
+<p ><h1><a href="chessgrid.html" target="_blank"><b>Play Chess Now<b></a></h1></p></div></td></tr></table>
+
+<ul>
+<p><h2><li>Prelimanary Software Design </li></h2></p>
+<ul>
+<p><h3><li>model</h3></p>
+
+<ul>
+
+<p><li>The objects in this game will be the board,individual squares, Pawn, Rook, Knight, Bishop, Queen, King, removing a piece, pawn move, rooks move, knights move, bishops move, queens move, kings move, Check,players turn and players move<br>
+<li>Arrays may include the position of the individual squares
+</ul>
+
+
+<p><h3><li>functions</h3></p>
+<ul>
+<p><li>movePawn function(will need to know where the pawn is and if the pawn is in position to strike.)It will move the pawn</p>
+<p><li>moveRook function(will need to know where the rook is and if the rook is in position to strike.)It will move the rook</p>
+<p><li>moveKnight function(will need to know where the knight is and if the knight is in position to strike.)It will move the knight</p>
+<p><li>moveBishop function(will need to know where the bishop is and if the bishop is in position to strike.)It will move the bishop</p>
+<p><li>moveQueen function(will need to know where the queen is and if the queen is in position to strike.)It will move the queen</p>
+<p><li>moveking function(will need to know where the king is and if the king is in position to strike.)It will move the king</p>
+<p><li>check function(needs to know where king is and where all other pieces are)checks to see if king is in Check</p>
+<p><li>checkMate function(needs to know where king is and where all other pieces are)checks to see if king is in Check Mate</p>
+<p><li>remove function(needs to know if a piece has been captured)This will remove the opposing piece from the board</p>  
+ </ul></ul></ul>
+</div>
+</body>
+</html>

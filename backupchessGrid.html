@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+	<title>Chess Grid</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css" />
+	<link rel="chess" type="text/HTML" href="index.html"/>
+	<script src="chessGrid.js" type="text/javascript"></script>									<!-- includes java script /-->
+	
+</head>
+<body onload="getChessBoard();" >                                           <!--loads the function when page opens /-->
+
+
+																	<!--builds a heading for page /-->
+<div class="border2">
+<table class= "table1heading" > 
+</table>
+
+
+<table class="heading2" > 
+</table>
+
+<table class="heading3"> 
+<tr><td><p><div id="PBDiv"><img id= "PB" src="PawnBlack.gif" width=20 height=20 alt="Black Pawn"></div><h1>THE GAME OF CHESS</h1><div id="PWDiv"><img id= "PW" src="PawnWhite.gif" width=20 height=20 alt="White Pawn"></div><div align= "center"; id="whosTurn" value = ""><h6>by:Devan Glazier </h6><button style="height: 75px; width: 500px" onclick = "loadSyncPost()"><h2>load JSON</h2></button></div></p>
+</table>
+<table><tr><td><div id= "dataDiv" ></div></td></tr></table>
+<table class="heading2" > 
+</table>
+
+<table id="chessBoardDiv"></table>	
+<audio id= "audio" autoplay>
+  <source src="0.WAV" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+										<!-- gets chessboard by id /-->	
+<table><tr><td> <input id="name" type="text" value="player one " onclick = value="" ></input></td><td><h4>    <input type="radio" name="sex"  onclick = "white()" >White<input type="radio" name="sex" onclick = "black()">Black</h4></td><td width = 160px;></td><td><div  id="posision"></div></td><td width = 20px;></td><td><div id="posision2"></div></td></tr>   
+      <tr><td> <input id="name2" type="text" value="player two " onclick = value="" ></input></td><td width = 150px;></td><td><button onclick = "submit()">submit</button>
+<button onclick = "startOver()">Reset</button></td><td ><select><option  onclick = "normal()" >Normal</option><option onclick = "mideaval()" >Mideaval</option><option  onclick = "cartoon()" >Cartoon</option><option onclick = "christmas()" >Christmas</option></td></tr></table>										
+
+</body>
+</html>
